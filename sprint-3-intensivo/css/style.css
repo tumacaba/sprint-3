@@ -1,0 +1,137 @@
+*{
+    font-family: verdana;
+}
+header{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-color: #ebc712;
+}
+.heading-info{
+    font-size: 10px;
+}
+.buy-car{
+    font-size: 50px;
+}
+.buy-car a{
+    text-decoration: none;
+    color: black;
+}
+.search-input{
+    padding: 10px;
+    width: 400px;
+}
+body{
+    background-color: #0a0a0a;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+nav ul li a i{
+    font-size: 20px;
+}
+nav{
+    background-color: #005dce;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0;
+    padding: 10px;
+}
+.heading-image{
+    font-size: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+.search-input{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 35px;
+}
+nav ul li ul{
+    display: none;
+    margin: 10px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+main{
+    background-color: #1b1b19;
+}
+.banner{
+    width: 90%;
+    margin: 50px;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.items-img{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    width: 80%;
+}
+.items{
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px teal;
+    width: 30%;
+    padding: 10px;
+}
+.items a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    background-color: tan;
+    margin: 10px;
+    border-radius: 50px;
+}
+.account a{
+    text-decoration: none;
+    color: black;
+}
+.items a:hover{
+    background-color: rgb(238, 222, 201);
+}
+@media (max-width:600px){
+    body{
+        background-color: white;
+    }
+    .items{
+        background-color: thistle;
+        width: 90%;
+    }
+    main{
+        background-color: whitesmoke;
+    }
+    *{
+        font-family: georgia;
+    }
+}
